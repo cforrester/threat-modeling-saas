@@ -1,0 +1,24 @@
+<!-- app/templates/report_template.html -->
+<html>
+  <head>
+    <title>Threat Model Report</title>
+  </head>
+  <body>
+    <h1>Threat Model: {{ threat_model.name }}</h1>
+    <p>Created At: {{ threat_model.created_at }}</p>
+    <h2>Components</h2>
+    <ul>
+      {% for component in threat_model.components %}
+      <li>{{ component }}</li>
+      {% endfor %}
+    </ul>
+    <h2>Detected Threats</h2>
+    <ul>
+      {% for threat in threat_model.threats %}
+      <li>
+        <strong>{{ threat.category }}</strong> - {{ threat.riskLevel }}: {{ threat.recommendation }}
+      </li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
