@@ -1,4 +1,4 @@
-# Threat Modeling SaaS
+# Threat Modeling SaaS Prototype (🚧 Under construction 🚧)
 
 ## 🚀 Overview
 Threat Modeling SaaS is a **security assessment platform** that helps developers, security engineers, and DevOps teams **identify and manage cybersecurity risks** in their applications. 
@@ -183,19 +183,4 @@ kubectl apply -f k8s/
 ## 📜 License
 This project is **open-source** under the MIT License.
 
----
 
-## 🙌 Contributing
-We welcome contributions! Feel free to:
-- Submit a **pull request**
-- Open an **issue** for bugs or feature requests
-- Join discussions in our **community forum**
-
----
-
-## 📧 Contact
-- **GitHub:** [Your GitHub Profile](https://github.com/your-username)
-- **Email:** support@yourdomain.com
-- **Discord:** Join our security community!
-
----
